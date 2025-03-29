@@ -28,10 +28,7 @@ To use this server with a client like Claude Desktop, add the following configur
   "mcpServers": {
     "unix_timestamps_mcp": {
       "command": "npx",
-      "args": [
-        "-y",
-        "github:Ivor/unix-timestamps-mcp" // Make sure this points to your actual repository
-      ]
+      "args": ["-y", "github:Ivor/unix-timestamps-mcp"]
     }
   }
 }
