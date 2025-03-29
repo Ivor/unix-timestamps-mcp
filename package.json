@@ -4,6 +4,9 @@
   "description": "A simple MCP server for handling unix timestamps",
   "main": "dist/index.js",
   "type": "module",
+  "bin": {
+    "unix-timestamps-mcp": "./dist/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
