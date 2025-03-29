@@ -10,15 +10,6 @@ const server = new McpServer({
   version: "1.0.0"
 });
 
-// Add a simple hello tool
-server.tool(
-  "hello",
-  { name: z.string() },
-  async ({ name }) => ({
-    content: [{ type: "text", text: `Hello, ${name}!` }]
-  })
-);
-
 // Add a tool to convert ISO8601 date times to Unix timestamps
 server.tool(
   "iso8601_to_unix",
