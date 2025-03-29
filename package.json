@@ -1,0 +1,29 @@
+{
+  "name": "unix_timestamps",
+  "version": "1.0.0",
+  "description": "A simple MCP server for handling unix timestamps",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node --esm src/index.ts",
+    "test:client": "ts-node --esm src/test-client.ts",
+    "test:simple": "node test.mjs",
+    "test:direct": "node simple-test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "timestamps"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "@types/node": "^22.13.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2",
+    "zod": "^3.24.2"
+  }
+}

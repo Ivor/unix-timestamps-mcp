@@ -1,0 +1,5 @@
+(node:36669) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:36669) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+Starting MCP server...
+MCP server connected via stdio transport
